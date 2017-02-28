@@ -53,6 +53,11 @@
                             <constraint firstItem="aV4-jr-gVV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="xLQ-Sc-dkh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="M83-vv-6hD" id="Bdb-Aa-a1G"/>
+                        <outlet property="nameLabel" destination="aV4-jr-gVV" id="JcL-Ej-WWM"/>
+                        <outlet property="priceLabel" destination="QMO-H6-8ez" id="hTH-LV-sS3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
