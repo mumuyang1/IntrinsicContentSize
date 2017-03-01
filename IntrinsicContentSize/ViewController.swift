@@ -16,6 +16,11 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    // can check direction
+    if UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft {
+    }
+
     nameLabel.text = NSLocalizedString("Name", comment: "")
     descriptionTextField.text = NSLocalizedString("Description", comment: "")
     priceLabel.text = NSLocalizedString("Price", comment: "")
